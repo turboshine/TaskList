@@ -1,0 +1,158 @@
+:root {
+    --clr-dark4: #5c2626;
+    --clr-dark3: #b74242;
+    --clr-2: #ea7362;
+    --clr-1: #ffd6b6;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    font-weight: 400;
+    background-color: var(--clr-1);
+}
+
+main {
+    padding: 0 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat;
+    color: var(--clr-dark4);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.card-font-size {
+    font-size: 1rem;
+    color: var(--clr-dark4);
+}
+
+h1 {
+    color: var(--clr-2);
+    padding-top: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    background-color: var(--clr-dark4);
+    height: 5rem;
+    width: 100%;
+}
+
+p {
+    color: var(--clr-1);
+    font-size: 1rem;
+}
+
+#display-cards {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.duedate {
+    background-color: var(--clr-2) !important;
+}
+
+.form-label {
+    color: var(--clr-dark3);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.heading {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.form-control {
+    background-color: var(--clr-2);
+    border: solid 0.07rem var(--clr-dark4);
+    color: var(--clr-dark4) !important;
+    font-size: 1.3rem;
+    font-weight: 450;
+}
+
+input::placeholder {
+    color: var(--clr-dark3) !important;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+textarea::placeholder {
+    color: var(--clr-dark3) !important;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.alert {
+    display: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.btn {
+    background-color: var(--clr-dark4);
+    border: solid 2px var(--clr-dark3);
+    color: var(--clr-2);
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+.btn:hover {
+    background-color: var(--clr-dark3);
+    color: var(--clr-dark4);
+    border: 1px solid var(--clr-dark4);
+}
+
+.card {
+    background-color: var(--clr-2);
+    margin-bottom: 0.5rem;
+    border: solid .3rem var(--clr-dark4);
+    /* text-align: center; */
+    /* overflow: scroll; */
+    width: 100%;
+}
+
+.col {
+    margin-right: 3rem;
+}
+
+
+/* done delete buttons */
+
+button {
+    margin-top: 1rem;
+    background-color: var(--clr-dark4);
+    color: var(--clr-2);
+    border: solid 0.07rem var(--clr-2);
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    color: var(--clr-1);
+    font-weight: 600;
+}
+
+.card-body {
+    padding-left: 2rem;
+}

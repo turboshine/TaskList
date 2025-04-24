@@ -1,0 +1,2 @@
+Each task is added to the web page by filling in the text feilds.
+Status is changed to DONE from TODO and by clicking DELETE the task disappears from the page.
